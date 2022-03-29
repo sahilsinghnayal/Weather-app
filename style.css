@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(43, 71, 62, 0.87);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    /* background-image: url('https://api.unsplash.com/'); */
+   color:white
+}
+.card{
+    background-color:rgb(24, 25, 26);
+    padding:22px;
+    width: 100%;
+    max-width:350px;
+    border-radius: 12px;
+    margin-top: 1em;
+}
+.search{
+    display: flex;
+    justify-content:;
+    justify-content: center;
+}
+button{
+    margin:2px;
+    padding:2px;
+    height:32px;
+    width:40px;
+    border-radius: 12px;
+    outline: none;
+    background-color: rgb(226, 215, 215);
+    cursor: pointer;  
+    transition: 0.5s ease-in-out;
+}
+input{
+    border-radius: 12px;
+    width:222px;
+    outline: none;
+    background-color: rgb(226, 215, 215);
+    padding:7px;
+    font-size: medium;
+}
+ 
+button:hover{
+    background-color: rgb(24, 25, 26);
+    
+}
