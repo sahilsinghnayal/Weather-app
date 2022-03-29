@@ -4,13 +4,13 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: rgba(43, 71, 62, 0.87);
+    background-image: url(bg.png);
     font-family: 'Baloo Bhaijaan 2', cursive;
     /* background-image: url('https://api.unsplash.com/'); */
    color:white
 }
 .card{
-    background-color:rgb(24, 25, 26);
+    background-color:rgb(24 25 26 / 92%);
     padding:22px;
     width: 100%;
     max-width:350px;
@@ -46,3 +46,14 @@ button:hover{
     background-color: rgb(24, 25, 26);
     
 }
+.temp{
+    font-size: 42px;
+    margin-top: -40px;
+}
+
+.city{
+    font-size: 32px;
+}
+/* .weather.loading{
+    visibility: hidden;
+} */
